@@ -1,0 +1,68 @@
+body {
+    background-color: azure;
+    font-family: "Lexend Deca", sans-serif;
+    position: flex;
+    flex-direction: column;
+    min-height: 45vh;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.main {
+    flex: 1;
+}
+
+.foot {
+    text-align: center;
+    color: midnightblue;
+    clear: both;
+    margin-top: 40px;
+}
+
+span {
+    color: midnightblue;
+}
+
+.tile-image {
+    height: 200px;
+    margin-right: 50px;
+    float: left;
+}
+
+.card {
+    width: 45%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+@media (min-width: 680) {
+    .logo {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .card {
+        text-align: justify;
+        margin-bottom: 40pxpx;
+        position: block;
+    }
+
+    .card img {
+        margin-bottom: 10x;
+        object-fit: cover;
+        width: 100px;
+        position: inline;
+
+    }
+}
